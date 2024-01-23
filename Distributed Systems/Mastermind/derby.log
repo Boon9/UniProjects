@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sun Jul 10 17:11:14 SGT 2022:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-0181-e760-8e59-000002953060 
+on database directory C:\Users\starfish\Documents\year 2\sem 1\oop\final assignment\myDB with class loader sun.misc.Launcher$AppClassLoader@25154f 
+Loaded from file:/C:/Users/starfish/Documents/year%202/sem%201/oop/final%20assignment/target/bg-jobs/sbt_8b1beedc/target/9fc6e0c9/d4f190b2/derby-10.12.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_321-b07
+user.dir=C:\Users\starfish\Documents\year 2\sem 1\oop\final assignment
+os.name=Windows 11
+os.arch=x86
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

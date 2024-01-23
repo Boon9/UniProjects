@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="375.0" prefWidth="600.0" styleClass="background" stylesheets="@DarkMode.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.makery.address.HelpController">
+    <children>
+      <Text fill="WHITE" layoutX="167.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="How To Play?">
+         <font>
+            <Font name="Ink Free" size="48.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="12.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1. Guess the correct colours in their correct positions. (no duplicate)">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="12.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2. Choose 4 colours by clicking on the buttons below, then click OK.">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="12.0" layoutY="218.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3. After each guess, clues will be given.">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="33.0" layoutY="252.0" strokeType="OUTSIDE" strokeWidth="0.0" text="C - Correct colour in the correct place.">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font></Text>
+      <Text fill="WHITE" layoutX="33.0" layoutY="285.0" strokeType="OUTSIDE" strokeWidth="0.0" text="W - Correct colour in the wrong place.">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font></Text>
+      <Text fill="WHITE" layoutX="12.0" layoutY="337.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4. You only have 10 chances. Good luck!">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font></Text>
+      <Button cancelButton="true" layoutX="536.0" layoutY="28.0" mnemonicParsing="false" onAction="#handleBack" text="X" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="389.0" layoutY="203.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/good-luck.gif" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>
